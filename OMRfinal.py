@@ -113,7 +113,7 @@ import os
 import cv2
 
 # es necesario importar la libreria de esta manera 
-poppler_path = r"C:\Users\mayra\Downloads\Release-24.08.0-0\poppler-24.08.0\Library\bin"
+poppler_path = r"C:\Users\mayra\OneDrive\Escritorio\RECONOCIMIENTO_EXAMENES\OMR\STACKOVERFLOW1\fhce-orm\Release-24.08.0-0\poppler-24.08.0\Library\bin"
 pdf_path = r"C:\Users\mayra\OneDrive\Escritorio\RECONOCIMIENTO_EXAMENES\OMR\marcado.pdf"
 
 images = convert_from_path(pdf_path=pdf_path, poppler_path=poppler_path, dpi=300)
